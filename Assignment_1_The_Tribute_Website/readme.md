@@ -11,7 +11,8 @@ This is a simple and elegant **tribute website** built using only **HTML and CSS
 
 ---
 
-[👉 View Live Project](https://the-tribute-website-1.netlify.app/)
+<a href="https://the-tribute-website-1.netlify.app/" target="_blank">🔗 <strong>Live Project</strong></a>
+
 
 
 
