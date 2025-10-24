@@ -7,7 +7,8 @@ This is a simple and elegant **tribute website** built using only **HTML and CSS
 
 ## 📸 Project image
 
-<img width="1219" height="648" alt="Screenshot (158)" src="https://github.com/user-attachments/assets/b1578467-60ab-4e78-ae36-cdde3f56dba6" />
+<img width="1219" height="628" alt="Screenshot (158)" src="https://github.com/user-attachments/assets/2360ddc9-0d60-4246-ac5a-8ccedb90f89a" />
+
 ---
 
 [👉 View Live Project](https://the-tribute-website-1.netlify.app/)
