@@ -1,13 +1,17 @@
-
+## project image 
 <img width="1298" height="629" alt="Screenshot (156)" src="https://github.com/user-attachments/assets/73c23d3a-14e4-428b-9304-327354e6d4fb" />
 
 
+
+<img width="1192" height="642" alt="Screenshot (157)" src="https://github.com/user-attachments/assets/368522ce-f322-44be-bf82-40466743d99a" />
 
 
 # ✅ Job Application Form (HTML & CSS)
 
 A clean, responsive, and fully functional **Job Application Form** built using only **HTML and CSS**.  
 This project also includes a **Form Submission Success Page (submit.html)** to display a confirmation message after form submission.
+
+project demo: https://job-form-3bcc77.netlify.app/
 
 ---
 
