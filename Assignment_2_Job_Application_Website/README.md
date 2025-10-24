@@ -1,6 +1,6 @@
 
-![Project Screenshot](<img width="1298" height="629" alt="Screenshot (156)" src="https://github.com/user-attachments/assets/90b9807c-8b32-4684-ac0d-fc64807d248b" />
-)
+<img width="1298" height="629" alt="Screenshot (156)" src="https://github.com/user-attachments/assets/73c23d3a-14e4-428b-9304-327354e6d4fb" />
+
 
 
 
@@ -29,9 +29,13 @@ This project also includes a **Form Submission Success Page (submit.html)** to d
 /Job-Application-Form
 │
 ├── index.html → Main Job Application Form
+
 ├── submit.html → Success/Confirmation Page
+
 ├── style.css → Styles for the form page
+
 ├── style1.css → Styles for the success page
+
 └── README.md → Project documentation
 
 
