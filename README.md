@@ -10,7 +10,7 @@ This repository contains a collection of responsive and visually appealing proje
 | Project Name | Description | Live Demo | Source Code |
 |--------------|-------------|-----------|-------------|
 | Tribute Website | A beautiful tribute page dedicated to Dr. Abdul Qadeer Khan, featuring biography, legacy, and a clean responsive layout. | [Live Demo](https://the-tribute-website-1.netlify.app/) | `/tribute-website/` |
-| Job Application Form | A fully responsive job application form with modern UI, form validation and submission success page. | (Add URL if deployed) | `/job-application-form/` |
+| Job Application Form | A fully responsive job application form with modern UI, form validation and submission success page. | [Live Demo](https://job-form-3bcc77.netlify.app/) | `/job-application-form/` |
 | (Add More Projects) | You can list your future projects here in the same format. | — | — |
 
 ---
