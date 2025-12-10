@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+  overflow-x: hidden; /* prevent horizontal scroll */
+  transition: all 0.3s ease-in-out;
+}
+
+/* -------------------- NAVBAR ------------------------- */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: all 0.4s ease-in-out;
+}
+
+nav:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+.center-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex: 1;
+  min-width: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.search {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.search input {
+  flex: 1;
+  min-width: 0;
+  max-width: 100%;
+  padding: 10px 20px;
+  border: 0.5px solid gray;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.search input:focus {
+  outline: none;
+  border-color: #555;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transform: scale(1.02);
+}
+
+.search button {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  background: #eee;
+  transition: all 0.3s ease-in-out;
+}
+
+.search button:hover {
+  background: #ddd;
+  transform: scale(1.05);
+}
+
+.mic {
+  padding: 15px;
+  border-radius: 50%;
+  background: #f0efef;
+  display: grid;
+  place-items: center;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.mic:hover {
+  transform: scale(1.1);
+  background: #e0dfdf;
+}
+
+/* -------------------- TAGS ------------------------- */
+.tags {
+  display: flex;
+  padding: 10px 20px;
+  gap: 15px;
+  border-top: 1px solid #ccc;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  transition: all 0.3s ease-in-out;
+}
+
+.tags::-webkit-scrollbar {
+  display: none;
+}
+
+.tag {
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: 1px solid #161616;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.tag:hover {
+  transform: scale(1.1);
+  background: #ddd;
+}
+
+/* -------------------- CONTAINER ------------------------- */
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  transition: all 0.3s ease-in-out;
+}
+
+aside {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  transition: all 0.4s ease-in-out;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.side-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.side-icons img {
+  width: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.side-icons img:hover {
+  transform: scale(1.15) rotate(5deg);
+}
+
+.side-icons p {
+  font-size: 10px;
+  margin-top: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-container {
+  width: 100%;
+  transition: margin 0.3s ease-in-out;
+}
+
+main {
+  min-height: 100vh;
+  background: #f0eeee;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* -------------------- CARDS ------------------------- */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 10px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-content {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.avatar img {
+  width: 40px;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.avatar img:hover {
+  transform: scale(1.1) rotate(-5deg);
+}
+
+.card h3 {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.channel-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.content-status {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+}
+
+/* -------------------- MEDIA QUERIES ------------------------- */
+
+/* Large Screens */
+@media (min-width: 1200px) {
+  aside {
+    width: 80px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .main-container {
+    margin-left: 80px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .search input {
+    min-width: 200px;
+  }
+  .card-container {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  aside {
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-around;
+    padding: 5px 0;
+  }
+  .side-icons p {
+    display: none;
+  }
+  .main-container {
+    margin-left: 0;
+    margin-bottom: 80px;
+  }
+  .search input {
+    min-width: 100px;
+    width: 100%;
+  }
+  .card-container {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
+
+  /* Hide nav elements except search */
+  nav {
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  .logo,
+  .side-nav,
+  .center-nav > .mic {
+    display: none;
+  }
+  .center-nav {
+    width: 100%;
+    justify-content: center;
+  }
+  .search {
+    flex: 1;
+    min-width: 0;
+    max-width: 100%;
+  }
+  .search input {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+  .search button {
+    padding: 8px 10px;
+  }
+}
+
+/* Extra Small */
+@media (max-width: 480px) {
+  .search input {
+    min-width: 120px;
+  }
+  .card h3 {
+    font-size: 16px;
+  }
+  .channel-name {
+    font-size: 14px;
+  }
+  .content-status {
+    font-size: 12px;
+  }
+}
