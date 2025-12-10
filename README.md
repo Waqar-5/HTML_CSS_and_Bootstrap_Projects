@@ -13,7 +13,8 @@ This repository contains a collection of responsive and visually appealing proje
 | Job Application Form | A fully responsive job application form with modern UI, form validation and submission success page. | [Live Demo](https://job-form-3bcc77.netlify.app/) | `/job-application-form/` |
 | Parallax Website |A smooth and modern parallax scrolling website featuring layered background images, text overlays, and light/dark content sections. Built using pure HTML & CSS with responsive design. | [Live Demo](https://soft-heliotrope-4749a3.netlify.app/) | `/parallax-website/` |
 | Developer Landing Page |A modern, responsive developer landing page website featuring hero section, smooth scroll, animations, improved mobile UI, resume download button, and a clean professional layout. | [Live Demo](https://sweet-semifreddo-0c7d3c.netlify.app/) | `/developer-landing-page/` |
-| Restaurant Websiyte | A modern, responsive restaurant site with animated hero, interactive menu grid, features section, and animated social icons.. | [Live Demo](https://prismatic-duckanoo-700ea3.netlify.app/) | `/restaurant-website/` |
+| Restaurant Website | A modern, responsive restaurant site with animated hero, interactive menu grid, features section, and animated social icons.. | [Live Demo](https://prismatic-duckanoo-700ea3.netlify.app/) | `/restaurant-website/` |
+| Youtube Clone Website | Responsive YouTube-like interface with search, sidebar, tags, and video cards. | [Live Demo](https://a-clone-website-of-youtube.netlify.app/) | `/youtube-clone-website/` |
 
 
 ---
