@@ -16,6 +16,7 @@ This repository contains a collection of responsive and visually appealing proje
 | Restaurant Website | A modern, responsive restaurant site with animated hero, interactive menu grid, features section, and animated social icons.. | [Live Demo](https://prismatic-duckanoo-700ea3.netlify.app/) | `/restaurant-website/` |
 | My Tunes Website | Responsive web interface showcasing music, movies, TV shows, and gift cards with clean layout and smooth animations. | [Live Demo](https://brilliant-music-website.netlify.app/) | `/myTunes-website/` |
 | Youtube Clone Website | Responsive YouTube-like interface with search, sidebar, tags, and video cards. | [Live Demo](https://a-clone-website-of-youtube.netlify.app/) | `/youtube-clone-website/` |
+| Documentation Website | Clean and responsive documentation site with sidebar navigation, smooth scrolling, and well-structured content sections.| [Live Demo](https://documentation-website-of-mine.netlify.app/) | `/documentation-website/` |
 
 
 ---
