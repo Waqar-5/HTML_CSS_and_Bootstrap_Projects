@@ -1,0 +1,97 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f8f9fa;
+  scroll-behavior: smooth;
+  margin-top: 50px;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+/* Hero Section */
+.hero {
+  background: url("./assets/bg-pic.webp")
+    no-repeat center center;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+.card-title {
+  font-weight: 600;
+}
+.categories button {
+  margin: 5px;
+}
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 40px 0;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #ffc107;
+}
+/* Make all product card images uniform */
+.card-img-top {
+  width: 100%;        /* Full card width */
+  height: 250px;      /* Fixed height for all images */
+  object-fit: cover;  /* Crop and scale images nicely */
+}
+
+.section-anchor {
+  display: block;
+  position: relative;
+  top: -80px; /* height of navbar */
+  visibility: hidden;
+}
+
+/* Offset anchor scroll for fixed navbar */
+#products {
+  scroll-margin-top: 80px; /* Adjust height according to your navbar */
+}
+#testimonials {
+  scroll-margin-top: 80px;
+}
+#contact {
+  scroll-margin-top: 80px;
+}
