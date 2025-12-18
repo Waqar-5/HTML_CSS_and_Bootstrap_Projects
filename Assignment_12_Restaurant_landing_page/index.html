@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pakistani Food Paradise - Restaurant Landing Page</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Animate.css for Animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <style>
+    body { font-family: 'Montserrat', sans-serif; }
+    .hero { position: relative; background-size: cover; background-position: center; height: 90vh; }
+    .overlay { position: absolute; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.5); }
+    .menu-card img { height: 250px; object-fit: cover; }
+    .btn-warning { background-color: #f4b400; border: none; }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand animate__animated animate__fadeInDown" href="#">Pakistani Food Paradise</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link animate__animated animate__fadeInDown animate__delay-1s active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link animate__animated animate__fadeInDown animate__delay-1s" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link animate__animated animate__fadeInDown animate__delay-1s" href="#specials">Specials</a></li>
+          <li class="nav-item"><a class="nav-link animate__animated animate__fadeInDown animate__delay-1s" href="#booking">Book Table</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero d-flex align-items-center text-center" style="background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;">
+    <div class="overlay"></div>
+    <div class="container text-white position-relative">
+      <h1 class="display-4 fw-bold animate__animated animate__fadeInDown">Welcome to Pakistani Food Paradise</h1>
+      <p class="lead mb-4 animate__animated animate__fadeInUp animate__delay-1s">Taste the authentic flavors of Pakistan!</p>
+      <a href="#booking" class="btn btn-warning btn-lg animate__animated animate__zoomIn animate__delay-2s">Book a Table</a>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5 animate__animated animate__fadeInUp">Our Menu</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm menu-card animate__animated animate__fadeInLeft">
+            <img src="./assets/image1.webp" class="card-img-top" alt="Appetizer">
+            <div class="card-body text-center">
+              <h5 class="card-title">Starters</h5>
+              <p class="card-text">Samosas, Pakoras & more delicious snacks to start your meal.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm menu-card animate__animated animate__fadeInUp">
+            <img src="./assets/image2.webp" class="card-img-top" alt="Main Course">
+            <div class="card-body text-center">
+              <h5 class="card-title">Main Course</h5>
+              <p class="card-text">Biryani, Nihari, Karahi and other authentic Pakistani main dishes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm menu-card animate__animated animate__fadeInRight">
+            <img src="./assets/image3.webp" class="card-img-top" alt="Desserts">
+            <div class="card-body text-center">
+              <h5 class="card-title">Desserts</h5>
+              <p class="card-text">Gulab Jamun, Jalebi, and other sweet treats to end your meal.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chef Specials Section -->
+  <section id="specials" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5 animate__animated animate__fadeInUp">Chef Specials</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm menu-card animate__animated animate__zoomIn">
+            <img src="./assets/image4.jpg" class="card-img-top" alt="Biryani">
+            <div class="card-body text-center">
+              <h5 class="card-title">Chicken Biryani</h5>
+              <p class="card-text">PKR 1200</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm menu-card animate__animated animate__zoomIn animate__delay-1s">
+            <img src="./assets/image5.jpg" class="card-img-top" alt="Karahi">
+            <div class="card-body text-center">
+              <h5 class="card-title">Chicken Karahi</h5>
+              <p class="card-text">PKR 1400</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm menu-card animate__animated animate__zoomIn animate__delay-2s">
+            <img src="./assets/image6.jpg" class="card-img-top" alt="Desserts">
+            <div class="card-body text-center">
+              <h5 class="card-title">Gulab Jamun</h5>
+              <p class="card-text">PKR 300</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Section -->
+  <section id="booking" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5 animate__animated animate__fadeInUp">Book a Table</h2>
+      <form class="row g-3 justify-content-center animate__animated animate__fadeInUp animate__delay-1s">
+        <div class="col-md-4">
+          <input type="text" class="form-control" placeholder="Full Name" required>
+        </div>
+        <div class="col-md-4">
+          <input type="email" class="form-control" placeholder="Email" required>
+        </div>
+        <div class="col-md-4">
+          <input type="number" class="form-control" placeholder="Guests" min="1" required>
+        </div>
+        <div class="col-md-4">
+          <input type="date" class="form-control" required>
+        </div>
+        <div class="col-md-4">
+          <input type="time" class="form-control" required>
+        </div>
+        <div class="col-12 text-center">
+          <button class="btn btn-warning btn-lg animate__animated animate__pulse animate__infinite">Reserve Now</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="py-5 bg-dark text-white text-center">
+    <div class="container">
+      <h5 class="mb-3 animate__animated animate__fadeInUp">Visit Us or Follow Us</h5>
+      <p>123 Food Street, Lahore, Pakistan</p>
+      <div class="mb-3">
+        <a href="#" class="text-white me-3 animate__animated animate__fadeIn animate__delay-1s"><i class="bi bi-facebook fs-4"></i></a>
+        <a href="#" class="text-white me-3 animate__animated animate__fadeIn animate__delay-2s"><i class="bi bi-twitter fs-4"></i></a>
+        <a href="#" class="text-white me-3 animate__animated animate__fadeIn animate__delay-3s"><i class="bi bi-instagram fs-4"></i></a>
+      </div>
+      <p>&copy; 2025 Pakistani Food Paradise. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
