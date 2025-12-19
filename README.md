@@ -22,7 +22,7 @@ This repository contains a collection of responsive and visually appealing proje
 |11. E-Commerence-Landing-Page | Responsive and modern E-Commerce product landing page with hero section, product grid, category filters, testimonials carousel, and fully responsive design | [Live Demo](https://patient-darkness-4d27.wa5134810.workers.dev/) | `/e-commerence-landing-page/` |
 |12. Restaurant-Landing-Page | Landing page showcasing authentic Pakistani cuisine with menu, chef specials, booking form, and animations. | [Live Demo](https://divine-pond-a59d.wa5134810.workers.dev/) | `/restaurant-landing-page/` |
 |13. Travel agency Website |  Landing page showcasing **authentic Pakistani cuisine**, menu, chef specials, booking form, and animations. | [Live Demo](https://fancy-star-0943.wa5134810.workers.dev/) | `/travel-agency-website/` |
-|14. Online Education | Landing page showcasing **interactive courses**, instructors, enrollment options, and modern animations. | | [Live Demo](https://calm-breeze-969d.wa5134810.workers.dev/) | `/online-education/` |
+|14. Online Education | Landing page showcasing **interactive courses**, instructors, enrollment options, and modern animations. | [Live Demo](https://calm-breeze-969d.wa5134810.workers.dev/) | `/online-education/` |
 
 
 ---
