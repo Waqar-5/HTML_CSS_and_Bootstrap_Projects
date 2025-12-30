@@ -23,8 +23,8 @@ This repository contains a collection of responsive and visually appealing proje
 |12. Restaurant-Landing-Page | Landing page showcasing authentic Pakistani cuisine with menu, chef specials, booking form, and animations. | [Live Demo](https://divine-pond-a59d.wa5134810.workers.dev/) | `/restaurant-landing-page/` |
 |13. Travel agency Website |  Landing page showcasing **authentic Pakistani cuisine**, menu, chef specials, booking form, and animations. | [Live Demo](https://fancy-star-0943.wa5134810.workers.dev/) | `/travel-agency-website/` |
 |14. Online Education | Landing page showcasing **interactive courses**, instructors, enrollment options, and modern animations. | [Live Demo](https://calm-breeze-969d.wa5134810.workers.dev/) | `/online-education/` |
-| 15 | **College Website** – Showcases interactive courses, detailed instructor profiles, enrollment options, modern UI/UX, and smooth animations for a fully responsive experience. | [Live Demo](https://bucolic-dango-ccd417.netlify.app/) | `/college-website/` |
-| 16 | **Smart City Development Website** – Highlights city planning projects, interactive features, informative sections, smooth scrolling, modern animations, and fully responsive design. | [Live Demo](https://fancy-star-0943.wa5134810.workers.dev/) | `/smart-city-developement-website/` |
+| 15. College Website  | **College Website** – Showcases interactive courses, detailed instructor profiles, enrollment options, modern UI/UX, and smooth animations for a fully responsive experience. | [Live Demo](https://bucolic-dango-ccd417.netlify.app/) | `/college-website/` |
+| 16. Smart-City-Developement-Website | **Smart City Development Website** – Highlights city planning projects, interactive features, informative sections, smooth scrolling, modern animations, and fully responsive design. | [Live Demo](https://fancy-star-0943.wa5134810.workers.dev/) | `/smart-city-developement-website/` |
 
 
 ---
