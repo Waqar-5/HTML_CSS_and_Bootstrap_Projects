@@ -25,9 +25,10 @@ This repository contains a collection of responsive and visually appealing proje
 |14. Online Education | Landing page showcasing **interactive courses**, instructors, enrollment options, and modern animations. | [Live Demo](https://calm-breeze-969d.wa5134810.workers.dev/) | `/online-education/` |
 | 15. College Website  | **College Website** – Showcases interactive courses, detailed instructor profiles, enrollment options, modern UI/UX, and smooth animations for a fully responsive experience. | [Live Demo](https://bucolic-dango-ccd417.netlify.app/) | `/college-website/` |
 | 16. Smart-City-Developement-Website | **Smart City Development Website** – Highlights city planning projects, interactive features, informative sections, smooth scrolling, modern animations, and fully responsive design. | [Live Demo](https://fancy-star-0943.wa5134810.workers.dev/) | `/smart-city-developement-website/` |
-
-
+| 17. AI-Career-Guidance-Platform-Website | **AI Career Guidance Platform** – Explore personalized career paths, interactive quizzes, popular career fields, and engaging UI with smooth animations. | [Live Demo](https://restless-night-1b66.wa5134810.workers.dev/) | `/AI-career-guidance-platform-website/` |
+| 18. EcoLife-Website | **EcoLife – Sustainable Living** – Learn eco-friendly practices, renewable energy tips, green initiatives, interactive blog, and fully responsive design with smooth animations. | [Live Demo](https://floral-band-9e2a.wa5134810.workers.dev/) | `/ecoLife-website/` |
 ---
+
 
 ## 🛠️ Technologies Used
 
